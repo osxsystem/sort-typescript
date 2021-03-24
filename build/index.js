@@ -2,8 +2,9 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var NumbersCollection_1 = require("./bubble/NumbersCollection");
 var Sorter_1 = require("./bubble/Sorter");
-var numbers = new NumbersCollection_1.NumbersCollection([8, 2, 3, 0, 9, 10, 1]);
+var numbers = new NumbersCollection_1.NumbersCollection([99, 2, 3, 0, 9, 10, 1]);
 var sorter = new Sorter_1.Sorter(numbers);
+// sorter.sort();
 sorter.sort();
 console.log(numbers.data);
 // Sort string

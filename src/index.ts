@@ -2,11 +2,11 @@ import {CharactorsCollection} from "./bubble/CharactorsCollection";
 import {NumbersCollection} from "./bubble/NumbersCollection";
 import {Sorter} from "./bubble/Sorter";
 
-const numbers = new NumbersCollection([8, 2, 3, 0, 9, 10, 1]);
+const numbers = new NumbersCollection([99, 2, 3, 0, 9, 10, 1]);
 const sorter = new Sorter(numbers);
 
+// sorter.sort();
 sorter.sort();
-
 console.log(numbers.data);
 
 // Sort string
