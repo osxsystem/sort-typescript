@@ -11,15 +11,15 @@ import {Sorter} from "./bubble/Sorter";
 // console.log(numbers.data);
 
 // linked list
-const linkedList = new LinkedListCollection();
-linkedList.add(10);
-linkedList.add(-5);
-linkedList.add(3);
-linkedList.add(-10);
+// const linkedList = new LinkedListCollection();
+// linkedList.add(10);
+// linkedList.add(-5);
+// linkedList.add(3);
+// linkedList.add(-10);
 
-const sort = new Sorter(linkedList);
-sort.sort();
-linkedList.print();
+// const sort = new Sorter(linkedList);
+// sort.sort();
+// linkedList.print();
 
 
 // Sort string
@@ -30,8 +30,8 @@ linkedList.print();
 
 
 // ------------- version 2.0
-// const numbers = new NumbersCollection([50, 3, 60, 12, 1, 9, 7]);
-// numbers.sort();
-// console.log(numbers.data);
+const numbers = new NumbersCollection([50, 3, 60, 12, 1, 9, 7]);
+numbers.sort();
+console.log(numbers.data);
 
 
