@@ -9,8 +9,6 @@ class Node {
 export class LinkedListCollection implements Sortable {
   head: Node | null = null;
   
-  constructor(public data: any) { }
-
   add(data: number) : void {
     const node = new Node(data);
 
@@ -54,7 +52,7 @@ export class LinkedListCollection implements Sortable {
   compare(left: number, right: number): boolean {
     if(!this.head) { throw new Error('List is empty!'); }
 
-    return this.at(left).data > this.data(right).data;
+    return this.at(left).data > this.at(right).data;
   }
 
   swap(left: number, right: number): void {
