@@ -5,7 +5,7 @@ import {Sorter} from "./bubble/Sorter";
 const numbers = new NumbersCollection([99, 2, 3, 0, 9, 10, 1]);
 const sorter = new Sorter(numbers);
 
-// sorter.sort();
+// ----------- version 1.0
 sorter.sort();
 console.log(numbers.data);
 
@@ -16,7 +16,7 @@ console.log(numbers.data);
 // console.log(charracters);
 
 
-// version 2.0
+// ------------- version 2.0
 // const numbers = new NumbersCollection([50, 3, 60, 12, 1, 9, 7]);
 // numbers.sort();
 // console.log(numbers.data);
